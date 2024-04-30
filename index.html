@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stopwatch Web Application</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div class="stopwatch">
+            <p id="display">00:00:00</p>
+            <button onclick="startStopwatch()">Start</button>
+            <button onclick="pauseStopwatch()">Pause</button>
+            <button onclick="resetStopwatch()">Reset</button>
+            <button onclick="lapTime()">Lap</button>
+        </div>
+        <div class="laps">
+            <ul id="laps"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
